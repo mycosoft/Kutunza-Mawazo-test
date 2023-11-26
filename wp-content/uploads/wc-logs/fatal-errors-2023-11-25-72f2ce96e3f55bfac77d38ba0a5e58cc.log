@@ -1,0 +1,20 @@
+2023-11-25T11:44:29+00:00 CRITICAL Uncaught Error: Call to undefined function Inc\Base\st() in /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-content/plugins/traveler-layout-essential-for-elementor/inc/Base/ST_Enqueue.php:25
+Stack trace:
+#0 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(324): Inc\Base\ST_Enqueue->enqueue('')
+#1 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/u7307638 in /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-content/plugins/traveler-layout-essential-for-elementor/inc/Base/ST_Enqueue.php on line 25
+
+2023-11-25T11:44:32+00:00 CRITICAL Uncaught Error: Call to undefined function Inc\Base\st() in /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-content/plugins/traveler-layout-essential-for-elementor/inc/Base/ST_Enqueue.php:25
+Stack trace:
+#0 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(324): Inc\Base\ST_Enqueue->enqueue('')
+#1 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/u7307638 in /home/u730763858/domains/motorcareuganda.com/public_html/test/wp-content/plugins/traveler-layout-essential-for-elementor/inc/Base/ST_Enqueue.php on line 25
+

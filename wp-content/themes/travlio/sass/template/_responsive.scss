@@ -1,0 +1,213 @@
+/*
+*  Responsive
+*/
+@media(min-width: 768px){
+    .hidden-dots{
+        .slick-dots{
+            display: none;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1400px){
+    // 13 inch
+    .col-ct-6{
+        width: 50%;
+        &.lg-clearfix.md-clearfix{
+            clear:none;
+        }
+        &:nth-child( 2n + 1){
+            clear: both !important;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .lg-clearfix{
+        clear: both;
+    }
+}
+@media (min-width: 992px) and (max-width:1199px){
+    .md-clearfix{
+        clear: both;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .sm-clearfix{
+        clear: both;
+    }
+}
+@media (min-width: 1px) and (max-width: 767px){
+    .xs-clearfix{
+        clear: both;
+    }
+}
+
+@media (max-width: 1199px){
+    
+}
+
+@media (max-width: $screen-sm-max){
+    // logo 991px
+    .mobile-groups-button{
+        padding:15px 0;
+        position: relative;
+        z-index: 4;
+        .btn{
+            font-size: 14px;
+            i{
+                @include rtl-margin-right(3px);
+            }
+        }
+    }
+    #search-box{
+        .babe-search-form{
+            .input-group{
+                display: block;
+                > div.is-active{
+                    width: 100%;
+                    border-style: solid;
+                    border-width: 0 0 1px;
+                    border-color: $border-color;
+                }
+                div.submit button{
+                    width: 100%;
+                    @include border-radius(0 0 $border-radius-base $border-radius-base);
+                }
+            }
+        }
+    }
+    .my_account_page_content_wrapper.login_register_page, .my_account_page_content_wrapper.login_page{
+       padding:10px 0;
+       margin:0;
+    }
+    .my_account_page_content_wrapper{
+        padding:0;
+    }
+    .sidebar-single-tour{
+        margin-top: $theme-margin;
+    }
+}
+@media (max-width:767px) {
+
+    // tab for product
+    .tab-gallery,
+    .nav-tabs{
+        position: relative;
+        z-index: 1;
+        overflow-x: auto;
+        white-space: nowrap;
+        li{
+            float: none;
+            display: inline-block;
+            margin-bottom: 7px;
+        }
+    }
+    .widget-team{
+        .team-image img{
+            width: 100%;
+        }
+    }
+    // blog
+    .post-navigation .nav-links .title-direct{
+        display: none;
+    }
+    .entry-content-detail{
+        .meta i{
+            display: none;
+        }
+    }
+    .tag-social{
+        .ali-right{
+            margin-top: 15px;
+        }
+    }
+    .tour-list-v2 .title{
+        font-size: 15px;
+    }
+    // detail tour
+    .tour-entry-content > div{
+        padding:10px 20px 20px;
+        .babe_post_content_title,
+        > .title{
+            font-size: 16px;
+            padding:0 0 10px;
+        }
+    }
+    .tour-entry-header > div{
+        margin:0 0 10px;
+        width: 50%;
+        @include rtl-float-left();
+        &:nth-child( 2n + 1){
+            clear: both;
+        }
+    }
+}
+
+@media(max-width: 479px){
+    .woocommerce form .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper > * > *,
+    .woocommerce form .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper > * > .select2-container, .woocommerce form .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper > * > select, .woocommerce form .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper > * > input{
+        width: 100% !important;
+        margin: 0 0 5px !important;
+    }
+    .smallest-full{
+        width: 100% !important;
+    }
+    .comment-list div.avatar{
+        width: 80px;
+    }
+}
+// fix admin
+.admin-bar{
+    @media(min-width: 783px){
+        &.header_transparent{
+            #apus-header{
+                top: 32px;
+            }
+        } 
+    }
+    @media(max-width: 782px){
+        &.header_transparent{
+            #apus-header{
+                top: 46px;
+            }
+        }
+        .header-mobile{
+            top: 46px;
+        }
+    }
+}
+@media(max-width: 782px){
+    .admin-bar{
+        .mm-menu{
+            top: 46px;
+        }
+    }
+}
+@media(min-width: 783px){
+    .admin-bar{
+        .header-mobile,
+        .mm-menu{
+            top: 32px;
+        }
+    }
+}
+@media(max-width: 600px){
+    .admin-bar{
+        .header-mobile.sticky-header{
+            top: 0;
+        }
+    }
+}
+#mm-blocker{
+    z-index: 5;
+}
+.visible-smallest{
+    display: none;
+} 
+@media(max-width: 381px){
+    .visible-smallest{
+        display: block !important;
+    } 
+    .hidden-smallest{
+        display: none;
+    }
+}
